@@ -62,7 +62,7 @@ public class TopKontrol : MonoBehaviour
             }
             else
             {
-                targetPos = this.transform.position + (Vector3.forward + Vector3.up).normalized * 2;
+                targetPos = this.transform.position + ((Vector3.forward * 2) + (Vector3.forward * 4));
             }
 
             ballState = BallState.Shooting;
